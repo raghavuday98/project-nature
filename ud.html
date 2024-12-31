@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants and Veggies</title>
+    <link rel="stylesheet" href="ud.css">
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <script>
+        const sliderContainer = document.getElementById('slider-container');
+        const leftButton = document.getElementById('slider-left');
+        const rightButton = document.getElementById('slider-right');
+
+        leftButton.addEventListener('click', () => {
+            sliderContainer.scrollBy({
+                left: -300,
+                behavior: 'smooth'
+            });
+        });
+
+        rightButton.addEventListener('click', () => {
+            sliderContainer.scrollBy({
+                left: 300,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    </body>
+</head>
+
+<body>
+    <div class="sheet">
+        <header>
+            <div class="nav-bar">
+                <img src="logo.png" alt="Plant" class="logo">
+                <div class="nav2">
+                    <div class="Search"><a href="#"><i class="fi fi-rr-search"></i> Search </a></div>
+                    <a href="#">Home</a>
+                    <a href="#">Contact US</a>
+                    <a href="#">About Us</a>
+                    <a href="#" class="bag"><i class="fi fi-rr-shopping-bag"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <div class="hero-section">
+            <div class="hero-text">
+                <p class="dpdh">Delivering Plants,<br>Delivering Happiness!</p>
+                <p class="hero-discription">Shop your favourite plants in your favorable factor, Veggies,
+                    Seeds,<br>Citrus, Fruit Trees, Herbs, and more...</p>
+                <img src="plant7.png" alt="" class="hero-img">
+            </div>
+            <a href="#" class="hero-shop-now">Shop Now</a>
+        </div>
+
+        <main class="main">
+            <h2>Top Recommendation :</h2>
+            <section class="items">
+                <div class="item-slider-container" id="slider-container">
+                    <!-- Item 1 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant1.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Garden croton</p>
+                            <p class="item-price">₹399</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant2.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Monstera</p>
+                            <p class="item-price">₹249</p>
+                            <p class="item-discription">Free Delivery
+                            <p>
+                                <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant3.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Lyrata Fycus</p>
+                            <p class="item-price">₹210</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant4.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Peperomia argyreia</p>
+                            <p class="item-price">₹499</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant5.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Oxalis triangularis</p>
+                            <p class="item-price">₹299</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant6.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Philodendron rugosum</p>
+                            <p class="item-price">₹385</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant7.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Palm Tree</p>
+                            <p class="item-price">₹2999</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 8 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant8.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Male fern</p>
+                            <p class="item-price">₹699</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 9 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant9.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Swiss cheese plant</p>
+                            <p class="item-price">₹1299</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Item 10 -->
+                    <div class="item">
+                        <div class="item-image"
+                            style="background-image: url(plant10.png);background-size: cover; height: 300px; width: 300px;">
+                        </div>
+                        <div class="item-details">
+                            <p class="item-name">Golden Pothos</p>
+                            <p class="item-price">₹599</p>
+                            <p class="item-discription">Free Delivery</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons"> <button class="slider-btn" id="slider-left">←</button>
+                    <button class="slider-btn" id="slider-right">→</button>
+                </div>
+            </section>
+        </main>
+        <h1 class="bip">Best Indoor Plants :</h1>
+        <div class="indoor-plants">
+            <div class="indoor-plants-img" style="background-image: url(plant13.webp); background-size: cover;"></div>
+            <div class="indoor-plants-detail">
+                <p class="heading">Red Chinese Evergreen</p>
+                <p class="discription">The red Chinese evergreen is a beautiful indoor plant <br> with variegated leaves
+                    in shades of red and green. <br> With proper care- plenty of water and no direct sunlight <br>the
+                    plant will bloom waxy, white flowers.</p>
+                <a href="" class="more-info">Click here for more info :-</a>
+            </div>
+        </div>
+        <div class="indoor-plants2">
+            <div class="indoor-plants-detail2">
+                <p class="heading2">Pink Polka Dot Plant</p>
+                <p class="discription2">Compact and vibrant, the pink polka dot plant is ideal for small <br> spaces
+                    that need an infusion of color. This tiny indoor plant <br> thrives in high humidity with moderate
+                    to bright light. The Sill <br> recommends placing this variety in a greenhouse or terrarium for <br>
+                    the best-growing results.</p>
+                <a href="" class="more-info">Click here for more info :-</a>
+            </div>
+            <div class="indoor-plants-img2" style="background-image: url(plant12.avif); background-size: cover;"></div>
+        </div>
+        <div class="indoor-plants">
+            <div class="indoor-plants-img" style="background-image: url(plant14.avif); background-size: cover;"></div>
+            <div class="indoor-plants-detail">
+                <p class="heading">Alocasia Melo</p>
+                <p class="discription">With thick, etched leaves, the alocasia melo indoor plant is a nice <br>
+                    structural alternative to trailing or flowy greenery. These leaves <br> are darker in color and love
+                    indirect light as too bright of sunlight <br> can burn the foliage.</p>
+                <a href="" class="more-info">Click here for more info :-</a>
+            </div>
+        </div>
+        <div class="indoor-plants2">
+            <div class="indoor-plants-detail2">
+                <p class="heading2">Wintergreen Berries</p>
+                <p class="discription2">A beautiful seasonal option for those looking to incorporate <br> holiday plants
+                    into their collection, the wintergreen berry plant is <br> ideal for novice gardeners. Cold-hardy
+                    and partial to indirect <br> sunlight, this indoor plant can survive the winter months with <br>
+                    ease. When crushed or rolled between your fingers, the leaves <br> produce a minty scent, similar to
+                    its namesake.</p>
+                <a href="" class="more-info">Click here for more info :-</a>
+            </div>
+            <div class="indoor-plants-img2" style="background-image: url(plant15.avif); background-size: cover;"></div>
+        </div>
+        <div class="indoor-plants">
+            <div class="indoor-plants-img" style="background-image: url(plant16.avif); background-size: cover;"></div>
+            <div class="indoor-plants-detail">
+                <p class="heading">Anthurium</p>
+                <p class="discription">Known for its waxy, heart-shaped flowers with a prominent <br> stamen in the
+                    center, this indoor plant needs to be watered every <br> one to two weeks and requires occasional
+                    fertilizing—so it's not <br> exactly low maintenance, but it's not high maintenance, either.</p>
+                <a href="" class="more-info">Click here for more info :-</a>
+            </div>
+        </div>
+        <h1 class="hing">Categories :</h1>
+        <div class="categories">
+            <div class="c1" style="background-image: url(flowering.avif); background-size: cover;">
+                <p>Flowering</p>
+            </div>
+
+            <div class="c1" style="background-image: url(ferns.jpg); background-size: cover;">
+                <p>Ferns</p>
+            </div>
+            <div class="c1" style="background-image: url(veggie.avif); background-size: cover;">
+                <p>Veggies</p>
+            </div>
+            <div class="c1" style="background-image: url(seeds.jpg); background-size: cover;">
+                <p>Seeds</p>
+            </div>
+        </div>
+        <div class="lower"></div>
+        <div class="down">
+            <p class="lower-info">This webpage is only for demo by Uday Pratap Raghav...For further enquiery contact me.
+            </p>
+            <a href="https://www.instagram.com/raghavuday.exe/">Click here to contact me
+                "</a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

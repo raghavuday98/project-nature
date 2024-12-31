@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    scrollbar-width: none;
+}
+
+.sheet {
+    height: 5000px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(254, 254, 254);
+}
+
+#body {
+    display: flex;
+    width: 1500px;
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 80px;
+    position: relative;
+    left: -20px;
+}
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    max-width: 1540px;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 20px 0px black;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+.nav2 {
+    height: 80px;
+    width: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 620px;
+}
+
+.bag i {
+    color: green;
+    font-weight: 700;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+
+}
+
+.nav2 a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.hero-section {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 1500px;
+    align-content: center;
+}
+
+.hero-text {
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+.dpdh {
+    font-size: 60px;
+    color: rgb(30, 150, 30);
+    font-weight: 550;
+    font-family: cursive;
+
+}
+
+.hero-discription {
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    top: -40px;
+}
+
+.hero-img {
+    position: relative;
+    left: 900px;
+    height: 400px;
+    top: -320px;
+}
+
+.hero-shop-now {
+    color: rgb(30, 150, 30);
+    font-size: 20px;
+    font-family: serif;
+    text-decoration: underline;
+    position: relative;
+    top: -140px;
+    left: 150px;
+}
+
+.main {
+    padding-top: 150px;
+    scrollbar-width: none;
+}
+
+.main h2 {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.slidebutton {
+    height: 50px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50px;
+}
+
+.item-slider-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 280px;
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+    scrollbar-width: none;
+    
+}
+
+.item a {
+    color: #41bd48;
+    font-size: 25px;
+}
+
+.item a:hover {
+    color: green;
+}
+
+.item-name {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.item-price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.item-image {
+    position: relative;
+    left: -40px;
+    top: 0px;
+}
+
+.item-details {
+    margin-top: 10px;
+}
+
+.buttons {
+    height: 70px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50px;
+    top: -680px;
+}
+
+.slider-btn {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px black;
+    color: black;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+.slider-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.item-slider-container {
+    display: flex;
+    overflow-x: auto;
+    /* Allow scrolling */
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    scrollbar-width: none;
+    /* For Firefox */
+}
+
+.item-slider-container::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Edge */
+}
+
+
+.bip {
+    position: relative;
+    left: 50px;
+    scrollbar-width: none;
+}
+
+.indoor-plants {
+    height: 500px;
+    width: 1400px;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    left: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+}
+
+.indoor-plants-img {
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin: 10px 0px 0px 10px;
+}
+
+.indoor-img {
+    height: 510px;
+    position: relative;
+    right: -290px;
+    top: 300px;
+}
+
+.indoor-plants-detail {
+    height: 300px;
+    width: 700px;
+    margin-left: 200px;
+    position: relative;
+    top: 50px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.discription {
+    font-size: 25px;
+}
+
+.indoor-plants2 {
+    height: 500px;
+    width: 1400px;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    left: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+}
+
+.indoor-plants-img2 {
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin: 10px 0px 0px 10px;
+}
+
+.indoor-img2 {
+    height: 510px;
+    position: relative;
+    left: -290px;
+    top: 300px;
+}
+
+.indoor-plants-detail2 {
+    height: 300px;
+    width: 700px;
+    margin-left: 200px;
+    position: relative;
+    top: 50px;
+}
+
+.heading2 {
+    font-size: 40px;
+    font-weight: 540;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.discription2 {
+    font-size: 25px;
+}
+
+.more-info {
+    color: green;
+    font-size: 20px;
+}
+
+.hing {
+    position: relative;
+    top: 30px;
+    left: 50px;
+
+}
+
+.categories {
+    height: 350px;
+    width: 1400px;
+    background-color: rgb(249, 249, 249);
+    margin: 50px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+}
+
+.c1 {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0px -50px 50px 1px black;
+}
+
+.c1 p {
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+
+.c1:hover {
+    height: 310px;
+}
+
+.lower {
+    height: 100px;
+    width: 1500px;
+}
+
+.down {
+    height: 400px;
+    width: 1500px;
+    color: white;
+    background-color: black;
+}
+
+.down a {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.down a:hover {
+    color: red;
+
+}
+
+.lower-info {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
